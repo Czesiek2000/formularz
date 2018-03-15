@@ -1,10 +1,7 @@
 zmiany do projektu  formularz :
-- usunac zbedne miejsca obok formularza 
 - zrobic wersje na mobilki 
 - ustawic tekst nag³owka na srodku 
 - zrobic checkbox i tekst na srodku 
-- poprawic kolory 
-- remember me checkbox 
 - odstep miedzy guzikami w dwoch ostatnich sekcjach 
 - ustawic dobrze dolny obrazek
 - ustawic pionowa linie w formach 

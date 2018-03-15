@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , intial scale="1">
+    <title>Weekly WebDev Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+        <div class="logo">
+                <img src="masterlab-logo.png" alt="Logo">
+            </div>
+    <div class="container">
+      
+        <div class="col">
+            <div class="form">
+                <h1>Register-form</h1>
+                <!-- <span class="form-title">Register-form</span> -->
+                <div class="tltles">
+                    <div class="title-content">
+                        <form action="">
+                        <input type="text" class="username" name="name" placeholder="Username" required>
+                        <input type="password" class="password" name="password" placeholder="Password" required>
+                        <input type="password" class="password" name="confirm-password" placeholder="Confirm Password" required>
+                        <input type="text" class="email" name="email" placeholder="Email" required>
+                        <input type="text" class="location" list="cities" placeholder="Location" required>
+                            <datalist id="cities">
+                            <option value="Warsaw"></option>
+                            <option value="Lublin"></option>
+                            <option value="Wrocław"></option>
+                            <option value="Krakow"></option>
+                            <option value="Gdańsk"> </option>      
+                        </datalist>
+                        
+                        <div class="checkbox-wraper">
+                            <input type="checkbox" id="email" name="terms-checkbox" value="Car" required class="checkbox">
+                            <label for="email" class="terms">I have read and accepted terms of use</label>
+                        </div>
+                            <input type="submit" class="btn-signup" value="Sign Up">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="form">
+            <h1>Send Email</h1>
+            <!-- <span class="form-title">Send Email</span> -->
+            
+            <div class="titles">
+                
+                <div class="title-content">
+                    <form action="">
+                        <input type="text" class="username" name="name" placeholder="Your Name" required>
+                        <input type="text" class="email" name="email" placeholder="Your Email" required> 
+                        <textarea name="Email" class="textarea" placeholder="Type Your Message..."></textarea>
+                       
+                        <div class="checkbox-wraper">
+                            <input type="checkbox" id="email" name="terms-checkbox" value="Car" required class="checkbox">
+                            <label for="email" class="terms">Send a copy to my email</label>
+                        </div>
+                        <input type="submit" class="btn-signup" value="Sign up">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="sign-up">
+            
+            <div class="send">
+                <h1>Sign In Form</h1>
+                <!-- <span class="form-title">Sign In Form</span> -->
+            
+            </div>
+            <div class="titles">
+            
+                <div class="title-content">
+            
+                    <form action="">
+                        <input type="text" class="username" name="name" placeholder="Username" required>
+                        <input type="text" class="password" name="name" placeholder="Password" required>
+                    </form>
+                    <input type="checkbox" name="" value="Car">Remember me
+                </div>
+
+            </div>
+
+        </div>
+        <div class="form">
+            <div class="form-title">
+                <h1>Recover Form</h1>
+                <!-- <span class="form-title">Recover Form</span> -->
+                <div class="title-content">
+                    <form action="">
+                        <input type="text" class="email"  placeholder="Enter your email" required>
+                        <input type="text" class="number" placeholder="Enter Your Phone number" required>
+                        <div class="form-btn">
+                            <input type="submit" class="btn-send" value="Send">
+                            <input type="submit" class="btn-done" value="Done">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="form">
+            <div class="form-title">
+                <h1>Subscribe for more</h1>
+                <!-- <span class="form-title">Subscribe for more</span> -->
+                <div class="title-content">
+                    <form action="">
+                        <input type="text" class="number" placeholder="Enter Your Email" required>
+                        <div class="form-btn">
+                            <input type="submit" class="btn-send" value="Subscribe">
+                            <input type="submit" class="btn-reset" value="No, Thanks">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="logo-bottom">
+            <img src="masterlab-bottom-logo.png" alt="Logo">
+        </div>
+
+    </div>
+</body>
+
+</html>

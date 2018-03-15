@@ -91,13 +91,16 @@ input::placeholder{
     padding: 10px 140px;
     
 } */
-h1{
+
+.form-title{
     text-align: center;
-    color: white;
-    align-self: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
 
 
-}
+} 
+
 .titles{
     display: flex;
     text-align: center;
@@ -123,6 +126,7 @@ h1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     flex-basis: 50%;
     width: 100%;
     height: 1600px;
@@ -140,15 +144,15 @@ h1{
 }
 
 input[type="text"]:hover{
-    border-color: #88c814;
+    border-color: #3b9a00;
 }
 input[type="password"]:hover{
-    border-color: #88c814;
+    border-color: #3b9a00;
 }
 
 .title-content{
     border-radius: 1px;
-  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.5);   
+  box-shadow: 0px 0px 0px 8px rgba(153,141,133,0.5);   
   background: #ddd; 
   padding: 8px; 
   width: 350px; 
@@ -161,16 +165,14 @@ input[type="password"]:hover{
     padding-left: 30px;
     list-style-type: none;
 }
-.location{
-    list-style-image: url()
-}
+
 input{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    border: 1px solid black;
+    border: 1px solid #c6c6c6;
     padding-left: 72px;
-    border-left: 1px solid black;
+    border-left: 1px solid #c6c6c6;
     
 }
 textarea {
@@ -179,19 +181,19 @@ textarea {
     height: 120px;
 }
 textarea:hover{
-    border-color: #88c814;
+    border-color: #3b9a00;
 }
 input{
     border-radius: 10px;
     padding-left: 5%;
-    width: 90%;
+    width: 100%;
 }
 
 .username{
     width: 100%;
     box-sizing: border-box;
     background-color: white;
-    background-image: url(user.png);
+    background-image: url(img/user.png);
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -201,7 +203,7 @@ input{
     width: 100%;
     box-sizing: border-box;
     background-color: white;
-    background-image: url(mail.png);
+    background-image: url(img/mail.png);
     background-repeat: no-repeat;
     background-position: 10px 10px;
     padding: 12px 20px 12px 40px;
@@ -211,7 +213,7 @@ input{
     width: 100%;
     box-sizing: border-box;
     background-color: white;
-    background-image: url(lock.png);
+    background-image: url(img/lock.png);
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -221,7 +223,7 @@ input{
     width: 100%;
     box-sizing: border-box;
     background-color: white;
-    background-image: url(phone.png);
+    background-image: url(img/phone.png);
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px; 
@@ -230,7 +232,7 @@ input{
     width: 100%;
     box-sizing: border-box;
     background-color: white;
-    background-image: url(location.png);
+    background-image: url(img/location.png);
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -242,6 +244,8 @@ input{
 
 input[type="checkbox"]{
     display:inline-block;
+    width: 10px;
+    height: 10px;
 }
 
 .checkbox-wrapper{
@@ -252,6 +256,7 @@ input[type="checkbox"]{
 .checkbox-wrapper label {
   cursor: pointer;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .checkbox{
@@ -268,32 +273,48 @@ input[type="checkbox"] {
     position: relative;
     border: 1px solid #c6c6c6;
     background-color::#c6c6c6;
-    
+    top:10px;
 }
 
 .checkbox:checked:after {
     content: '';
     width: 13px;
     height: 14px;
-    left: 4px;
+    left: 12px;
     top: 5px;
     position: absolute;
     background: #a1d63e;
+    
+}
+#emails{
+    position: relative;
+    top: 10px;
+    left: -50px;
+}
+.term{
+    position: relative;
+   left: -50px;
+   top: -10px;
 }
 
-.title-content checkbox
 
 
 .terms{
     color:#afafaf;
-    display:inline-block;
+    /* display:inline-block; */
     margin-top:22px;
+    position: relative;
+    top: -10px;
+    
 }
 input #email .checkbox{
     border-radius: 10px;
     width: 20px;
     height: 20px;
     display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .form{
@@ -304,6 +325,11 @@ input #email .checkbox{
 .sign-up{
     justify-content: flex-end;
 }
+.form-titles {
+    display: flex;
+    flex-grow: 1
+}
+
 
 
 /* custom checkbox  */

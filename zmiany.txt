@@ -4,7 +4,6 @@ zmiany do projektu  formularz :
 - ustawic tekst nag³owka na srodku 
 - zrobic checkbox i tekst na srodku 
 - poprawic kolory 
-- wyciagnac z psd ikonki 
 - remember me checkbox 
 - odstep miedzy guzikami w dwoch ostatnich sekcjach 
 - ustawic dobrze dolny obrazek

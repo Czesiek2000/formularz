@@ -313,3 +313,26 @@ input #email .checkbox{
 }
 
 }
+@media screen and (max-width:640px){
+    .container{
+        width: 640px;
+    }
+.logo{
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.logo-bottom{
+    margin-right: 100px;
+}
+}
+
+@media screen and (max-width:786px){
+    .sign-up{
+        margin-top: 170px;
+    }
+    .logo-bottom{
+        margin-right: 180px;
+        margin-top: 160px;
+    }
+}
